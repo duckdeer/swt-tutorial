@@ -63,7 +63,7 @@ public class GreeterSolution {
 		
 		Label lblFirstName = new Label(container, SWT.None);
 		lblFirstName.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
-		lblFirstName.setText("Vorname: ");
+		lblFirstName.setText("Vorname*: ");
 		
 		txtFirstName = new Text(container, SWT.BORDER);
 		txtFirstName.setLayoutData(new GridData(SWT.FILL, SWT. FILL, true, false));
@@ -71,7 +71,7 @@ public class GreeterSolution {
 		
 		Label lblLastName = new Label(container, SWT.None);
 		lblLastName.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
-		lblLastName.setText("Nachname: ");
+		lblLastName.setText("Nachname*: ");
 		
 		txtLastName = new Text(container, SWT.BORDER);
 		txtLastName.setLayoutData(new GridData(SWT.FILL, SWT. FILL, true, false));
